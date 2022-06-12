@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[755],{715:function(t,e,n){n.r(e);var o=n(7294);e.default=function(t){var e=t.children;return o.createElement("h2",{className:"font-[kanit] text-4xl font-bold my-[40px] text-[#3176E0]"},e)}}}]);
+//# sourceMappingURL=component---src-pages-components-title-js-e261004f0adfeba8fa26.js.map
