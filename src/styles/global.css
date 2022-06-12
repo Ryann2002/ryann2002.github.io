@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-[100%] bg-[#fff];
+  font-family: "Open Sans";
+}
+
+.bg-custom {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/bg.png");
+}
+
+.mark::after {
+  @apply content-[''] w-2 h-2 bg-[#3176E0] absolute top-[50%] -left-4 -translate-x-[50%] -translate-y-[50%] rounded-full;
+}
+
+#hero {
+  background-image: url("../images/stacked-steps-haikei.png");
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 300px;
+}
+
+#custom-gr {
+    background: hsla(216, 74%, 54%, 1);
+    background: linear-gradient(180deg, hsla(216, 74%, 54%, 1) 0%, hsla(190, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(216, 74%, 54%, 1) 0%, hsla(190, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(216, 74%, 54%, 1) 0%, hsla(190, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3176E0", endColorstr="#00D4FF", GradientType=1 );
+    @apply z-10
+}
+
+#custom-gr::after{
+    background: hsla(216, 74%, 54%, 1);
+    background: linear-gradient(180deg, hsla(216, 74%, 54%, 1) 0%, hsla(190, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(180deg, hsla(216, 74%, 54%, 1) 0%, hsla(190, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(180deg, hsla(216, 74%, 54%, 1) 0%, hsla(190, 100%, 50%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3176E0", endColorstr="#00D4FF", GradientType=1 );
+    content: '';
+    @apply w-[105%] h-[105%] blur-3xl rounded-full -z-[1]
+}
+
+
+.point::after{
+  background: hsla(216, 74%, 54%, 1);
+  @apply content-[''] w-2 h-2 rounded-full right-0 bottom-0 absolute translate-x-3 -translate-y-[100%] animate-pulse
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #e4e4e4;
+  border-radius: 100px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #3176E0;
+  border-radius: 10px;
+}
