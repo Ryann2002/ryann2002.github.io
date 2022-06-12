@@ -1,5 +1,5 @@
 import * as React from "react";
-import perfil from "../images/perfil.png";
+import perfil from "../../images/perfil.png";
 
 const Hero = () => {
   return (

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/ryann2002.github.io",
   plugins: [require("tailwindcss")],
   siteMetadata: {
     siteUrl: `https://www.yourdomain.tld`,

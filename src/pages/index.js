@@ -1,10 +1,10 @@
 import * as React from "react"
-import Contato from "../components/contato"
+import Contato from "./components/contato"
 
-import Experiencia from "../components/experiencia"
-import Formacao from "../components/formacao"
-import Hero from "../components/hero"
-import Skills from "../components/skills"
+import Experiencia from "./components/experiencia"
+import Formacao from "./components/formacao"
+import Hero from "./components/hero"
+import Skills from "./components/skills"
 
 
 const IndexPage = () => {
