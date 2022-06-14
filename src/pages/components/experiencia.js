@@ -32,8 +32,8 @@ const Experiencia = () => {
       <div className="max-w-[800px] mx-auto">
       <Title>Experiências</Title>
         <ul className="p-4">
-          {experiencias.map((expencia) => (
-            <li className="flex gap-8 items-center pl-4 group">
+          {experiencias.map((expencia, key) => (
+            <li key={key} className="flex gap-8 items-center pl-4 group">
               <p className="italic w-[200px] shrink-0">
                 {expencia.regiao} <br /> {expencia.periodo}
               </p>
